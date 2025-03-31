@@ -1,0 +1,1 @@
+export type StandardQueryFn<Args extends object, Ret> = (args: Args) => Promise<Ret>
